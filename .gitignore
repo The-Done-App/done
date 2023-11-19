@@ -1,0 +1,14 @@
+*.js
+!jest.config.js
+!jest.integ.config.js
+*.d.ts
+!src/done-react/src/env.d.ts
+node_modules
+.secrets
+.env
+.vscode
+.DS_Store
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

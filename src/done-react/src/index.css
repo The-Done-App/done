@@ -1,0 +1,34 @@
+/** =========================================================================================
+ * Filename: index.css
+ * 
+ * Description: This file contains the CSS for the entire application.
+ * It acts to set the font family for the entire application, as well
+ * as the styling for the scrollbars.
+ ========================================================================================= */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #e1e1e1;
+}
+
+::-webkit-scrollbar:hover {
+  width: 10px;
+  height: 10px;
+  background-color: #d0dce2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b4b4b4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b9b9b9;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "createtasknotification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createTaskNotification.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "./createTaskNotification.d.ts",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
